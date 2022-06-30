@@ -1,3 +1,3 @@
-mkdir /usr/share/texlive/texmf-dist/tex/latex/bony
+mkdir -p /usr/share/texlive/texmf-dist/tex/latex/bony
 cp ./*.sty /usr/share/texlive/texmf-dist/tex/latex/bony/
 mktexlsr
